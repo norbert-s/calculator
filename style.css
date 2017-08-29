@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+html,body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	  background: url("https://lh4.ggpht.com/g-JVhwEBNbqTqY2CvLM0CaQSyYTu-MpIrrMicJrr-Ne8ZU_4X2thZctgDR_eQo4iFpln=h900") no-repeat center center fixed; 
+
+	 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  display:flex;
+	  min-height:100vh;
+	  align-items:center;
+	  justify-content: center;
+}
+
+#wrap{
+	width:250px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+	/*border:.5px solid black;*/
+	
+	background-color: 
+
+}
+#display{
+	width:100%;
+	height:70px;
+	
+	margin-left:5px;
+	margin-right:5px;
+	border-bottom:0.5px;
+	display:flex;
+	overflow:hidden;
+	justify-content: flex-end;
+	align-items: center;
+	font-weight: bold;
+	background:#0365B0
+	
+}
+#cursor {
+	font-family: 'Overlock', cursive;
+	font-size: 24px;
+	margin-right:20px;
+	color:#E7FFFF;
+
+}
+#display-hist{
+	width:100%;
+	height:50px;
+	border:.5px solid black;
+	background:white;
+}
+#calc{
+	width:100%;
+	height:350px;
+	/*border:.5px solid black;*/
+	margin-left:5px;
+	margin-right:5px;
+	background-color: DeepSkyBlue ;
+ 
+    
+}
+#unit{
+	font-size:30px;
+}
+
+
+.line{
+	width:100%;
+	
+	display:flex;
+	flex-flow:wrap;
+	flex-direction:row;
+}
+button{
+	width:25%;
+	height:70px;
+	font-size: 20px;
+	font-family: 'Forum', cursive;
+	font-weight: bold;
+	box-shadow: none;
+	border:none;
+	transition: 1s;
+  color:black;
+    background:#044AB2;
+  
+}
+button:hover{
+  background-color:DeepSkyBlue ;
+}
+
+button:active{
+	border:none;
+}
+#btn-hist{
+	height:15px;
+	font-size:10px;
+	width:100%;
+	margin-top:0px;
+}
+
+.num{
+	background-color:LightSkyBlue 
+}
+
+.op{
+	background-color: #51c5ff;
+}
+
+.btn-color{
+	background-color:Tan 
+}
