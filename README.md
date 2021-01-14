@@ -1,4 +1,6 @@
-freecodecamp frontend project \n
+freecodecamp frontend project 
+
+
 Vanilla js
 
 
